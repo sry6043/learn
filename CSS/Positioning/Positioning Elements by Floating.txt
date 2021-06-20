@@ -1,0 +1,8 @@
+float: position;
+position- right,left
+
+clear: left;
+meaning- there should not be any floating element to its left.
+
+clear:both;
+there should not be any floating element to its left and right.

@@ -1,0 +1,18 @@
+li
+{
+     list-style: none;
+}
+removes the dot of list.
+---------------------------------------------------------------------------
+*
+{
+	statements;
+}
+will apply to every selectors.
+---------------------------------------------------------------------------
+
+for: <div id="bg">
+CSS selector:#bg{statements}
+
+for:<div class="bg">
+CSS selector: .bg{statements}

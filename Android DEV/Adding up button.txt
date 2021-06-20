@@ -1,0 +1,13 @@
+https://classroom.udacity.com/courses/ud9012/lessons/7466f670-3d47-4b60-8f6a-0914ce58f9ad/concepts/ce4e1985-1701-40ba-89cb-2c3f2bacd70a
+
+MainActivity:
+inside OnCreate:
+	val navController=this.findNavController(R.id.fragment)
+        	NavigationUI.setupActionBarWithNavController(this,navController)
+inside the class:
+	override fun onSupportNavigateUp(): Boolean {
+        		val navController=this.findNavController(R.id.fragment)
+        		return navController.navigateUp()
+        		}
+Note:
+R.id.fragment is the activity main navhost id.

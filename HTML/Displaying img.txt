@@ -1,0 +1,4 @@
+<img src=''link" width="number" height="number" alt="string">
+
+alt-used by screen readers for people with visual impairment.
+img tag is an inline element.

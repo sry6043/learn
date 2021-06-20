@@ -1,0 +1,4 @@
+https://www.youtube.com/watch?v=DI0NIk-7cz8
+
+imp cmmnds:-
+Navigation.findNavController(view).navigate(R.id.gotofirstques)

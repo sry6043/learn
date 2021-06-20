@@ -1,0 +1,24 @@
+Create a button using xml
+come to main activity folder
+Code to add:
+
+class MainActivity : AppCompatActivity() {
+    override fun onCreate(savedInstanceState: Bundle?) {
+        super.onCreate(savedInstanceState)
+        setContentView(R.layout.activity_main)
+        val button = findViewById<Button>(R.id.btnDatePicker)
+        button.setOnClickListener {view -> clickDatePicker(view) }
+    }
+    fun clickDatePicker(view: View)
+    {
+        val cal=Calendar.getInstance()
+        val year=cal.get(Calendar.YEAR)
+        val month=cal.get(Calendar.MONTH)
+        val day=cal.get(Calendar.DAY_OF_MONTH)
+
+        DatePickerDialog(this,
+                DatePickerDialog.OnDateSetListener { view, year, month, dayOfMonth -> Toast.makeText(this,"Date Picker works",Toast.LENGTH_LONG).show() },year,month,day).show()
+    }
+}
+
+and some header file .

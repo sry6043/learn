@@ -1,0 +1,18 @@
+https://www.youtube.com/watch?v=oDfl-xLXiac&t=329s
+		OR
+https://www.youtube.com/watch?v=HtwDXRWjMcU&t=8s(I learned From this)
+
+gradel file:
+implementation 'com.google.android.material:material:1.1.0'
+		OR
+implementation 'androidx.recyclerview:recyclerview:1.1.0'
+
+Steps:
+-Add gradel File.
+-Create the RecyclerView Layout on activity or Fragment
+-Create New layout file for defining the item layout.
+-Create a Adapter Class
+-Create another class(data class) for defining the item contents.
+-In the corresponding activity or fragment class add the list.
+
+For more info look up the fragment2 project or the video

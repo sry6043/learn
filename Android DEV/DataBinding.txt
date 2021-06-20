@@ -1,0 +1,16 @@
+https://classroom.udacity.com/courses/ud9012/lessons/4f6d781c-3803-4cb9-b08b-8b5bcc318d1c/concepts/68b85cff-8813-496b-86ba-57ed352d8bcf
+
+Go to build.gradle file and add this inside android 
+dataBinding
+{
+	enabled = true
+}
+
+Go to activity main and make it into layout.
+
+Go to Main activity and add:
+val binding = DataBindingUtil.setContentView<ActivityMainBinding>(this, R.layout.activity_main)
+
+Databinding on Fragment:
+val binding: FragmentTitleBinding=DataBindingUtil.inflate(inflater,R.layout.fragment_title,container,false)
+        return binding.root

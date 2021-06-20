@@ -1,0 +1,22 @@
+link:the link
+visited:If the link is visited
+hover: when the mouse pointer hover over the selector.
+active:when the mouse clicks and holds the selector.
+
+header li:nth-child(3)
+{
+     something
+}
+targets 3rd li
+
+section div:nth-child(odd)
+{
+     something
+}
+targets odd div
+
+section div:nth-child(4):hover
+{
+     something
+}
+4th div changes if the mouse hovers over it.

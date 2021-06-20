@@ -1,0 +1,56 @@
+Android apps are written using Kotlin,Java Or C++ lang.
+Android SDK tools compile the code along with any data and resource files into an APK(Android Package).
+Android is an operating system based on Linux kernel and here each app acts as different user.
+Each app has a unique Linux user ID so that only the user ID assigned to that app can access certain files.
+Each app has its own virtual machine so that it runs in isolation from other apps.
+--------------------------------------------------------------------------------------------------------------------------
+It's possible to arrange for two apps to share the same Linux user ID, in which case they are able to access each other's files. To conserve system resources, apps with the same user ID can also arrange to run in the same Linux process and share the same VM. The apps must also be signed with the same certificate.
+--------------------------------------------------------------------------------------------------------------------------
+App Components- Acts as an entry point to the app.
+four different types-Activities,Services,Broadcast receivers,Content providers.
+
+Activity - Is a single screen with user interface
+Services - It is a component that runs in the background to perform a certain operation. 
+Can be of two types either User aware or User is unaware of this processes so that it is completely dependend on the system. 
+Broadcast receivers - It is a component that allows to register for a system or application event.
+eg - battery low,upcoming alarm or event.
+ContentProvider- It helps Supplie data from one app to others and it uses different methods to store data like database,files, or over a network.
+
+Activating Components
+Intent object is used to activate Activities, Services and Broadcast receivers.
+Content Providers are activated when targeted by a request from ContentResolver.
+
+The manifest file
+It contains all the component
+Identifies user permission the app requires
+Declares min API Levels req by the app
+Declares the hardware or software the app uses like camera,microphone etc
+
+API Levels
+Are integers that uniquely identifies the different API versions
+Also, Updates to the framework API are designed so that the new API remains compatible with earlier versions of the API.
+
+What I learned today
+Progaurd is used for shrinking,obfuscation and Optimization 
+shrinking- Removes unused resources
+obfuscation- Shortens the name of classes and members
+Optimization- Inspects and rewrites the code
+
+ R8 is the default compiler that converts Java bytecode into the DEX format that runs on the Android platform.
+
+Sometimes R8 might remove code that the app actually needs So,
+For customization use "-keep"(in Proguard rules file)
+
+learned much more about Kotlin like val,var,loops(for,while),when..
+
+Under settings what does Option to add/edit /remove category mean?
+
+
+
+
+
+
+
+
+
+

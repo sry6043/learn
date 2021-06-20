@@ -1,0 +1,37 @@
+https://classroom.udacity.com/courses/ud9012/lessons/7466f670-3d47-4b60-8f6a-0914ce58f9ad/concepts/a92ca36a-facc-45f5-9199-a63a6f8fed33
+
+On Fragments:
+First create a fragment and add it to navigation(can be done through nav easily)
+Then create a menu folder and menu file in res folder.
+add menu items and give it title and id(must be same as fragment id in the nav interface)
+select kotline file where the menu should appear(mainly home)
+Add:
+inside OnCreateView: setHasOptionsMenu(true)
+inside the class:
+	 override fun onCreateOptionsMenu(menu: Menu, inflater: MenuInflater) 
+	{
+        		super.onCreateOptionsMenu(menu, inflater)
+        		inflater.inflate(R.menu.menu,menu)
+    	}
+
+    	override fun onOptionsItemSelected(item: MenuItem): Boolean 
+	{
+        		return NavigationUI.onNavDestinationSelected(item!!,requireView().findNavController()) || 		super.onOptionsItemSelected(item)
+	}
+
+
+gradel file for hamburger menu:
+implementation "com.google.android.material:material:$supportlivVersion"
+
+after creating hamburger menu do this to lock menu for other fragments:
+
+https://classroom.udacity.com/courses/ud9012/lessons/7466f670-3d47-4b60-8f6a-0914ce58f9ad/concepts/5b69515a-6403-470b-b0f5-a3cc9d34312d
+
+in Main.kt:
+navcontroller.addOnDestinationChangedListener { nc: NavController, nd: NavDestination, args: Bundle? -> 
+            if (nd.id == nc.graph.startDestination) {
+                drawerlayout.setDrawerLockMode(DrawerLayout.LOCK_MODE_UNLOCKED)
+            } else {
+                drawerlayout.setDrawerLockMode(DrawerLayout.LOCK_MODE_LOCKED_CLOSED)
+            }
+        }

@@ -1,0 +1,21 @@
+To create a button on MainActivity file
+val button = findViewById<Button>(R.id.btnDatePicker)
+
+If in tutorial a line is showing error try to place it on the next line
+NOTE: This happened to me for setOnClickListener Toast line.
+
+If Button colour is not changing then change Theme to 'Theme.AppCompat.Light.NoActionBar' in both Theme folders(light and dark).
+
+Use these plugins to make access faster:
+    apply plugin: 'kotlin-android'
+    apply plugin: 'kotlin-android-extensions'
+add to gradle(app)-dependencies	
+
+****Imp Code Lines****
+screen.append((view as Button).text)  - To append the same value as on the button to the screen
+
+
+NOTE:- xmlns:app="http://schemas.android.com/apk/res-auto" contains 
+app:cardCornerRadius="5dp"
+app:cardElevation="5dp"
+

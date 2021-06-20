@@ -1,0 +1,6 @@
+MainActivity.kt	-Main file for kotline cmds
+activity_main.xml	-Main file for designing the first screen
+colors.xml		-File for registering colors
+strings.xml	-For reg strings
+style.xml		-For reg style(Fonts,Text color,padding etc)
+Themes.xml	-Mainly used for changing themes(Theme.AppCompat.Light.NoActionBar)

@@ -1,0 +1,10 @@
+background-color: blue;
+background-image: url("specify location here");
+
+background-repeat:no-repeat,repeat-x,repeat-y;
+
+background-position: .1.;
+can combine like
+.1. top right,left center etc.
+
+Note : sometimes some properties may overwrite ,so call it again.

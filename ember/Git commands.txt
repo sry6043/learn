@@ -1,0 +1,9 @@
+ember -v : version
+ember new <project-name> : create new project
+----------------------------------------------------------------------------------------------------------------------------------------
+ember generate acceptance-test super-rentals : generated an acceptance test located at tests/acceptance/super-rentals-test.js
+ie,ember generate <type> <name> : where <type> is the kind of thing we are generating, and <name> is what we want to call it.
+
+ember t -s :We can put our automated test into motion by running the test server using this.
+
+NOTE:For more info about testing - [https://guides.emberjs.com/release/tutorial/part-1/automated-testing/]

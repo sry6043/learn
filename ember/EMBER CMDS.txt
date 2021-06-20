@@ -1,0 +1,1 @@
+<LinkTo @route="about" class="button">About</LinkTo> - IN HTML TO LINK ANOTHER PAGE

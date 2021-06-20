@@ -1,0 +1,26 @@
+selector
+{
+declaration;
+}
+
+selector:- p,div etc
+declaration:- color,fontsize etc
+
+Note:Every browser has its own style.
+-----------------------------------------------------------------------------
+Inside Html:
+<head>
+<style>
+	CSS lines
+</style>
+</head>
+
+Inside the target in Html:
+<body>
+<p style="text-align: center;">
+</body>
+
+Outside HTML:
+<head>
+<link rel="stylesheet" href="filename.css">
+</head>

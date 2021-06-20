@@ -1,0 +1,15 @@
+git clone link		link:-github repositary link
+git status
+git add .                                           mark for commiting
+git commit -m "message"
+git push			move local to remote repositary(github)
+git --version		version of git
+
+cmd:-
+mkdir name
+rm name -r	for removing dir
+
+browser sync:-
+browser-sync start --server --directory --files "*"
+browser-sync start --server --directory --files "**/*"
+also check anything inside the folder.    

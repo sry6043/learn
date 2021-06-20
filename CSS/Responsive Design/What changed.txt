@@ -1,0 +1,7 @@
+resp after = resp before + <meta name="viewport" content="width=device-width, initial-scale=1">
+
+This is used for mobile devices so that it doesnt zoom back(scale=1) and adapts to the device width.
+
+or
+
+Tells the browser to consider the width of the device as the real width of the screen and set its zoom level to 1, i.e., 100%, so it's not zoomed in or zoomed out.

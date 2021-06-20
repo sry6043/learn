@@ -1,0 +1,11 @@
+margin: toppx rightpx bottompx leftpx;
+padding: toppx rightpx bottompx leftpx;
+border: ";
+box-sizing: border-box;(google)(cannot be inherited-ie if applied on body it wont apply on child selectors.)
+
+overflow:auto,scroll,hidden,visible;
+when contents is greater than the border.
+
+
+NOTE:
+     Vertical margins that touch collapse and the larger margin of the two is what's left. Horizontal margins combine together.
