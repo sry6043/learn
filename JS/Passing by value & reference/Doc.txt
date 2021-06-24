@@ -1,0 +1,2 @@
+Primitive types are pass by value.
+Objects are pass by reference.

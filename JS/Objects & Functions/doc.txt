@@ -1,0 +1,1 @@
+Function in JS can also be treated as objects. Refer pic1 & script.js.
