@@ -1,0 +1,6 @@
+1.boolean
+2.String
+3.Number
+4.Null
+5.Symbol(New to ES6)
+Note: JS does not have int types it is only an subset of double.

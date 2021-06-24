@@ -1,0 +1,13 @@
+Javascript happen in console tab on inspecting the page.
+
+Where to Place JS:
+1.Inside Html File - inside head <script>--type here--</script>
+2.External file - inside head <script src="file path"></script>
+
+filepath eg - js/script.js
+
+Javascript is a single threaded process.
+------------------------------------------------------------------------
+Note : JS can also be declared on body tag.
+------------------------------------------------------------------------
+Javascript is dynamically typed lang(uses var).
