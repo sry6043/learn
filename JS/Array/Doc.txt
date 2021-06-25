@@ -1,0 +1,2 @@
+Arrays in JS are Objects.
+See Array Prop : Here we can see a property being assigned to an array.

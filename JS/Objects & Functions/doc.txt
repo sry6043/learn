@@ -1,1 +1,4 @@
 Function in JS can also be treated as objects. Refer pic1 & script.js.
+
+Function Constructor & this:
+prototype is created so that it will be created only once not every time an object is created.
